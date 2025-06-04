@@ -1,7 +1,17 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "jsx": "react-jsx", // ✅ Обязательно
+    "esModuleInterop": true, // ✅ Рекомендуется, особенно для Jest
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "lib": ["DOM", "ESNext"],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["src", "test"] // ✅ Убедись, что папка с тестами включена
 }
