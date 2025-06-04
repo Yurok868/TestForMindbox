@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+}
